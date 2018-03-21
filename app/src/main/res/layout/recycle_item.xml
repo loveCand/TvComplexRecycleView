@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:clickable="true"
+    android:focusable="true"
+    >
+    <!--clickable  focusable 他俩需要在父布局中添加,控件就会获取到焦点-->
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/mouseover"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+ />
+
+</LinearLayout>
